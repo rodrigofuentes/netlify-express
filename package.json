@@ -1,0 +1,16 @@
+{
+  "name": "netlify-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rodrigofuentes/netlify-express.git",
+  "author": "Rodrigo Fuentes <rodrigofuentes@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "npm-check": "^5.9.0"
+  }
+}
