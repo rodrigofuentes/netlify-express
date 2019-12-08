@@ -9,6 +9,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "check": "npm-check",
+    "dev:server":"yarn workspace @fullstack-netlify-bootstrap/server start"
+  },
   "devDependencies": {
     "concurrently": "^5.0.0",
     "npm-check": "^5.9.0"
